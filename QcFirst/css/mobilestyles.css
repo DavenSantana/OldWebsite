@@ -1,0 +1,533 @@
+/* Header and Footer for all pages */
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;
+}
+
+* {
+    background-color: #eeeeee;
+}
+
+header {
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-family: "Rosario", sans-serif;
+    font-size: 40px;
+    display: inline;
+    margin-left: 5px;
+}
+
+h1 a {
+    text-decoration: none;
+    color: red;
+}
+.libPic {
+    width: 90px;
+    height: 45px;
+    display: inline;
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.headerList {
+    font-family: "Rosario", sans-serif;
+    list-style-type: none;
+    display: flex;
+    align-items: stretch;
+    justify-content: left;
+    width: 100%;
+    margin-top: 15px;
+    padding: 0;
+}
+
+.headerList li {
+    float: left;
+    padding-right: 10px;
+}
+
+.headerButton {
+    background-color: #c4c4c4;
+    padding: 7px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.headerButton:hover {
+    background-color: rgba(196, 196, 196, 60%);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 350px) {
+    .headerButton {
+        background-color: #c4c4c4;
+        padding: 7px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 15px;
+    }
+}
+
+.footerList {
+    text-align: center;
+    font-family: "Rosario", sans-serif;
+    list-style: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: -40px;
+}
+
+.footerList li {
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.footerButton {
+    background-color: #c4c4c4;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 350px) {
+    .footerButton {
+        background-color: #c4c4c4;
+        padding: 8px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 15px;
+    }
+}
+
+#contactUs:hover {
+    background-color: rgba(196, 196, 196, 60%);
+    cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    height: 2.5rem;
+    width: 100%;
+    bottom: 0;
+}
+
+
+/* Styling for Signup and Login Pages */
+
+.formHeader {
+    text-align: center;
+    font-family: "Alice", serif;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.formButton {
+    font-family: "Rosario", sans-serif;
+    width: 120px;
+    height: 50px;
+    font-size: 25px;
+    margin: 50px auto;
+    display: block;
+    background-color: #c4c4c4;
+    color: red;
+}
+
+.loginButton {
+    font-family: "Rosario", sans-serif;
+    width: 120px;
+    height: 70px;
+    font-size: 25px;
+    margin: 50px auto;
+    display: block;
+    background-color: #c4c4c4;
+    color: red;
+}
+
+.formButton:hover, .loginButton:hover {
+    background-color: rgba(196, 196, 196, 60%);
+    cursor: pointer;
+}
+
+.formButtonLink {
+    text-decoration: none;
+}
+
+.mobileBigFormButton {
+    font-family: "Rosario", sans-serif;
+    width: 120px;
+    height: 80px;
+    font-size: 25px;
+    margin: 50px auto;
+    display: block;
+    background-color: #c4c4c4;
+    color: red;
+}
+
+.mobileBigFormButton:hover {
+    background-color: rgba(196, 196, 196, 60%);
+    cursor: pointer;
+}
+
+.signupFields {
+    display: block;
+    text-align: center;
+    font-family: "Alice", serif;
+    font-weight: bold;
+}
+
+.signupFields label {
+    text-align: center;
+    position: absolute;
+    font-size: 20px;
+}
+
+.signupFields input {
+    margin-top: 3em; 
+    height: 20px;
+}
+
+.mobileNameSignupField {
+    margin-left: 30px;
+}
+
+.mobileEmailSignupField {
+    margin-left: 50px;
+}
+
+.mobileConfirmEmailSignupField {
+    margin-left: 15px;
+}
+
+.mobilePasswordSignupField {
+    margin-left: 35px;
+}
+
+.loginFields {
+    display: block;
+    text-align: center;
+    font-family: "Alice", serif;
+    font-weight: bold;
+}
+
+.loginFields label {
+    text-align: center;
+    position: absolute;
+    font-size: 20px;
+}
+
+.loginFields input {
+    margin-left: 9em;
+    height: 20px;
+}
+
+.form {
+    margin-bottom: 10px;
+}
+
+.formName, .formEmail {
+    margin-bottom: 40px;
+}
+
+.formPassword {
+    padding-bottom: 40px;
+}
+
+.loginMessage {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.invalidLogin { 
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: red;
+    padding: 15px;
+    margin-top: -35px;
+    font-family: "Alice", serif;
+}
+
+.successfulSignup {
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: green;
+    padding: 15px;
+    margin-top: -35px;
+    font-family: "Alice", serif;
+}
+
+/* Student Home, Instructor Home, Instructor Roster*/
+
+.leftLabels {
+    font-family: "Alice", serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline;
+}
+
+.leftValue {
+    display: inline;
+    font-family: "Alice", serif;
+    font-size: 20px;
+}
+
+.leftLabelsSpacing {
+    margin-bottom: 10px;
+}
+
+.bigTable {
+    width: 100%;
+}
+
+.bigTable tr {
+    width: 30%;
+}
+
+.bigTable td {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Alice", serif;
+}
+
+.bigTable * {
+    background-color: #c4c4c4;
+    height: 75px;
+}
+
+.bigTable th {
+    font-family: "Alice", serif;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: #c4c4c4;
+}
+
+@media only screen and (max-width: 500px) {
+    #studentCourseTable * {
+        height: 100px;
+    }
+
+    #studentCourseTable th {
+        font-size: 18px;
+    }
+
+    #studentCourseTable td {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    #studentCourseTable * {
+        height: 100px;
+    }
+
+    #studentCourseTable th {
+        font-size: 14px;
+    }
+
+    #studentCourseTable td {
+        font-size: 10px;
+    }
+}
+
+.tableName {
+    font-family: "Alice", serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.studentEditClassList {
+    text-align: center;
+    list-style: none;
+    margin-left: -40px;
+}
+
+.studentEditButton {
+    font-family: "Rosario", sans-serif;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #c4c4c4;
+    color: red;
+    margin-bottom: 30px;
+}
+
+.studentEditButton:hover {
+    background-color: rgba(196, 196, 196, 60%);
+    cursor: pointer;
+}
+
+.courseField {
+    font-family: "Alice", serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.courseField select {
+    width: 165px;
+    height: 20px;
+}
+
+/*Student Enroll */
+
+.leftHandSide-fields {
+    display: block;
+    text-align: center;
+    font-family: "Alice", serif;
+    font-weight: bold;
+}
+
+.leftHandSide-fields label {
+    text-align: center;
+    position: absolute;
+    font-size: 20px;
+}
+
+.leftHandSide-fields input {
+    margin-top: 3em;
+    height: 20px;
+}
+.leftHandSide-fields select {
+    margin-top: 3em;
+    width: 165px;
+    height: 20px;
+}
+
+.findCourseButton {
+    font-family: "Rosario", sans-serif;
+    width: 175px;
+    height: 40px;
+    font-size: 20px;
+    margin: 50px auto;
+    display: block;
+    background-color: #c4c4c4;
+    color: red;
+}
+
+.findCourseButton:hover {
+    background-color: rgba(196, 196, 196, 60%);
+    cursor: pointer;
+}
+
+.centerFindCourseButton {
+    text-align: center;
+}
+
+.degreeButton {
+    font-family: "Rosario", sans-serif;
+    width: 175px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #c4c4c4;
+    color: red;
+    margin-top: 20px;
+}
+
+.degreeButton:hover {
+    background-color: rgba(196, 196, 196, 60%);
+    cursor: pointer;
+}
+
+.centerButton {
+    text-align: center;
+}
+
+.classIdSubjectEnroll {
+    margin-left: 40px;
+}
+
+.courseNumberEnroll {
+    margin-left:8px;
+}
+
+.degreeReqEnroll {
+    margin-left: -15px;
+}
+
+.addCourseButton:hover {
+    background-color: #a0a0a0;
+}
+
+.addCourseButton:hover {
+    background-color: rgba(255, 0, 0, 60%);
+    cursor: pointer;
+}
+
+/* Instructor Create */
+.leftHandSideForCreate-fields {
+    /* display: block; */
+    text-align: center;
+    font-family: "Alice", serif;
+    font-weight: bold;
+}
+
+.leftHandSideForCreate-fields label {
+    text-align: center;
+    position: absolute;
+    font-size: 20px;
+}
+
+.leftHandSideForCreate-fields input {
+    margin-top: 3em;
+    height: 20px;
+}
+.leftHandSideForCreate-fields select {
+    margin-top: 3em;
+    width: 165px;
+    height: 20px;
+}
+
+.semesterCapacityCreate {
+    margin-left: 35px;
+}
+
+.departmentCreate {
+    margin-left: 25px;
+}
+
+.courseInstructorCreate {
+    margin-left: 45px;
+}
+
+.courseClassTimeCreate {
+    margin-left: 30px;
+}
+
+.descriptionCreate {
+    margin-left: 125px;
+}
+
+textarea {
+    margin-top: 30px;
+    max-width: 100%;
+}
+
+.createCourse {
+    font-family: "Rosario", sans-serif;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    background-color: #c4c4c4;
+    color: red;
+}
+
+.createCourse:hover {
+    background-color: rgba(196, 196, 196, 60%);
+    cursor: pointer;
+}

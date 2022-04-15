@@ -1,0 +1,87 @@
+header{
+	background-color: #FBEEC1;
+	margin-top: -50px;
+	padding: 50px;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+    width: 100%;
+}
+
+h1{
+	font-family: 'Lobster', cursive;
+	padding-top: 100px;
+    padding-bottom: 100px;
+	font-size: 45px;
+    text-align: center;
+
+}
+
+.centerHeading{
+    text-align: center;
+}
+
+h2{
+	font-family: 'Alice', serif;
+	font-size: 40px;
+}
+
+h3{
+	font-family: 'Rosario', sans-serif;
+	font-size: 30px;
+}
+
+div h1{
+	margin-bottom: -20px;
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+}
+
+.project{
+	margin-top: -20px;
+	padding: 50px;
+	background-color: #B1A296;
+}
+
+.text-container{
+	text-align: center;
+}
+
+.project .btn{
+	background-color: #5D5C61;
+	padding: 10px;
+	font-size: 15px;
+	text-decoration: none;
+	color: black;
+}
+
+.project .btn:hover{
+	background-color: rgba(51, 102, 153, 70%);
+}
+
+.multipleProjectLinks{
+	list-style: none;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+}
+
+.multipleProjectLinks li{
+	margin-bottom: 30px;
+}
+
+.about{
+	background-color: #557A95;
+	margin-top: -50px;
+	padding-bottom: 40px;
+}
+
+.about h2{
+	padding-top: 50px;
+}
